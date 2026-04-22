@@ -5,13 +5,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>InovaVale</title>
-    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
 
 <body>
     <header class="container">
         <div class="logo">
-            <img src="/imgs/logo.png" alt="">
+            <img src="imgs/logo.png" alt="Logo">
         </div>
         <nav class="navbar">
             <ul>
@@ -30,27 +30,48 @@
                 architecto facilis explicabo illum cupiditate ad consequatur.</p>
             <button class="btnSaiba">Saiba Mais</button>
         </section>
-        <section class="container-sobre">
+        <section class="sobre-nos">
             <h1>Sobre Nós</h1>
-            <div class="text1">
-                <p class="semi-title">Lorem, ipsum.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos autem, similique culpa quia
-                    fugit consequatur cupiditate placeat suscipit ullam aliquam modi maxime, neque nulla perspiciatis at
-                    nihil. Maxime quas similique adipisci suscipit repellat fugit. Saepe, ducimus! Sunt error pariatur
-                    eligendi rerum molestiae optio, eius, dicta ab laborum corrupti ea dolorem porro voluptatibus
-                    similique qui illo maiores accusamus laboriosam nobis placeat ipsa. Alias.</p>
+            <div class="conteudo">
+                <div class="coluna">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sequi saepe? A delectus
+                        consequuntur impedit pariatur quibusdam consectetur quaerat mollitia quisquam quod, perspiciatis
+                        natus placeat tenetur, sed animi velit, doloribus ipsa distinctio inventore necessitatibus? At,
+                        nesciunt libero! Placeat exercitationem voluptatem maiores quae dignissimos sint doloremque
+                        natus, facilis adipisci corporis numquam.</p>
+                </div>
+                <div class="coluna">
+                    <h2>Lorem, ipsum.</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sequi saepe? A delectus
+                        consequuntur impedit pariatur quibusdam consectetur quaerat mollitia quisquam quod, perspiciatis
+                        natus placeat tenetur, sed animi velit, doloribus ipsa distinctio inventore necessitatibus? At,
+                        nesciunt libero! Placeat exercitationem voluptatem maiores quae dignissimos sint doloremque
+                        natus, facilis adipisci corporis numquam.</p>
+                </div>
             </div>
-            <span></span>
-            <div class="text2">
-                <p class="semi-title">Lorem, ipsum.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos autem, similique culpa quia
-                    fugit consequatur cupiditate placeat suscipit ullam aliquam modi maxime, neque nulla perspiciatis at
-                    nihil. Maxime quas similique adipisci suscipit repellat fugit. Saepe, ducimus! Sunt error pariatur
-                    eligendi rerum molestiae optio, eius, dicta ab laborum corrupti ea dolorem porro voluptatibus
-                    similique qui illo maiores accusamus laboriosam nobis placeat ipsa. Alias.</p>
+        </section>
+        <section class="carousel-container">
+            <h2>Lorem Ipsum is simply dummy</h2>
+
+            <div class="carousel-wrapper">
+                <div class="carousel-images">
+                    <div class="card"><img src="imgs/Giovanna.png"></div>
+                    <div class="card"><img src="imgs/Kaua.png"></div>
+                    <div class="card"><img src="imgs/Leonardo.png"></div>
+                    <div class="card"><img src="imgs/Marcelo.png"></div>
+                    <div class="card"><img src="imgs/Thais.png"></div>
+                </div>
+            </div>
+
+            <div class="carousel-dots">
+                <span class="dot active" onclick="scrollToImage(0)"></span>
+                <span class="dot" onclick="scrollToImage(1)"></span>
+                <span class="dot" onclick="scrollToImage(2)"></span>
             </div>
         </section>
     </main>
 </body>
+<script src="js/script.js"></script>
 
 </html>
