@@ -1,77 +1,154 @@
 <!DOCTYPE html>
-<html lang="pt-br">
-
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>InovaVale</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>InovaVale</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700;800&family=Lora:ital,wght@0,400;0,600;1,400&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="css/style.css" type="text/css">
 </head>
-
 <body>
-    <header class="container">
-        <div class="logo">
-            <img src="imgs/logo.png" alt="Logo">
+
+  <!-- NAV -->
+  <nav>
+    <a href="#">
+      <img class="logo-img" src="imgs/logo.png" alt="InovaVale"/>
+    </a>
+    <ul id="nav-menu">
+      <li><a href="#">Início</a></li>
+      <li><a href="#sobre">Sobre Nós</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contatos</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-content">
+      <h1>Lorem ipsum is simply dummy text.</h1>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s.</p>
+      <a href="#sobre" class="btn-primary">Saiba Mais</a>
+    </div>
+  </section>
+
+  <!-- SOBRE NÓS -->
+  <section class="sobre" id="sobre">
+    <div class="sobre-header reveal">
+      <h2>Sobre Nós</h2>
+    </div>
+    <div class="sobre-grid reveal">
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+    </div>
+  </section>
+
+  <!-- PROJETOS / CAROUSEL -->
+  <section class="projetos" id="projetos">
+    <h2 class="reveal">Lorem Ipsum is simply dummy</h2>
+    <div class="carousel-wrapper reveal">
+      <div class="carousel-track" id="carouselTrack">
+        <div class="carousel-item"><img src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?w=600&q=80" alt="Projeto 1"/></div>
+        <div class="carousel-item"><img src="https://images.unsplash.com/photo-1552581234-26160f608093?w=600&q=80" alt="Projeto 2"/></div>
+        <div class="carousel-item"><img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?w=600&q=80" alt="Projeto 3"/></div>
+        <div class="carousel-item"><img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?w=600&q=80" alt="Projeto 4"/></div>
+        <div class="carousel-item"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Projeto 5"/></div>
+        <div class="carousel-item"><img src="https://images.unsplash.com/photo-1600880292203-757bb62b4baf?w=600&q=80" alt="Projeto 6"/></div>
+      </div>
+      <div class="carousel-dots" id="carouselDots"></div>
+    </div>
+  </section>
+
+  <!-- DESTAQUE -->
+  <section class="destaque">
+    <div class="destaque-text reveal">
+      <h2>Lorem ipsum is simply dummy text.</h2>
+      <p>Lorem ipsum is simply dummy text of the printing and typesetting industry. Lorem ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+      <a href="#" class="btn-second">Saiba Mais</a>
+    </div>
+    <div class="destaque-img reveal">
+      <img src="https://images.unsplash.com/photo-1611532736597-de2d4265fba3?w=600&q=80" alt="Destaque"/>
+    </div>
+  </section>
+
+  <!-- EQUIPE -->
+  <section class="equipe">
+    <h2 class="reveal">Nossa Equipe</h2>
+    <div class="equipe-grid">
+      <div class="membro reveal">
+        <img class="membro-avatar" src="https://randomuser.me/api/portraits/women/44.jpg" alt="Membro"/>
+        <h3>Nome</h3>
+        <p>Profissional</p>
+        <div class="membro-socials"><a href="#">f</a><a href="#">in</a><a href="#">@</a></div>
+      </div>
+      <div class="membro reveal">
+        <img class="membro-avatar" src="https://randomuser.me/api/portraits/men/32.jpg" alt="Membro"/>
+        <h3>Nome</h3>
+        <p>Profissional</p>
+        <div class="membro-socials"><a href="#">f</a><a href="#">in</a><a href="#">@</a></div>
+      </div>
+      <div class="membro reveal">
+        <img class="membro-avatar" src="https://randomuser.me/api/portraits/women/68.jpg" alt="Membro"/>
+        <h3>Nome</h3>
+        <p>Profissional</p>
+        <div class="membro-socials"><a href="#">f</a><a href="#">in</a><a href="#">@</a></div>
+      </div>
+      <div class="membro reveal">
+        <img class="membro-avatar" src="https://randomuser.me/api/portraits/men/76.jpg" alt="Membro"/>
+        <h3>Nome</h3>
+        <p>Profissional</p>
+        <div class="membro-socials"><a href="#">f</a><a href="#">in</a><a href="#">@</a></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section class="contato-section" id="contato">
+    <div class="contato-img"></div>
+    <div class="contato-form">
+      <h2>Entre em Contato</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-group"><input type="text" id="nome" placeholder="Nome Completo" required/></div>
+        <div class="form-group"><input type="email" id="email" placeholder="E-mail" required/></div>
+        <div class="form-group"><textarea id="mensagem" placeholder="Mensagem" required></textarea></div>
+        <button type="submit" class="btn-enviar">Enviar</button>
+        <p id="form-msg">✓ Mensagem enviada com sucesso!</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>Mapa do Site</h4>
+        <ul>
+          <li><a href="#">Início</a></li>
+          <li><a href="#sobre">Sobre Nós</a></li>
+          <li><a href="#">Galeria</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#contato">Contatos</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contato</h4>
+        <p>Email<br/>Telefone<br/>WhatsApp</p>
+      </div>
+      <div class="footer-col">
+        <h4>Siga Nós</h4>
+        <div class="social-links">
+          <a href="#" title="Instagram">IG</a>
+          <a href="#" title="X">𝕏</a>
+          <a href="#" title="LinkedIn">in</a>
         </div>
-        <nav class="navbar">
-            <ul>
-                <li><a href="#">Início</a></li>
-                <li><a href="#">Sobre Nós</a></li>
-                <li><a href="#">Galeria</a></li>
-                <li><a href="#">Projeto</a></li>
-                <li><a href="#">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="container-header">
-            <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</h1>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni omnis nesciunt, quia reprehenderit
-                architecto facilis explicabo illum cupiditate ad consequatur.</p>
-            <button class="btnSaiba">Saiba Mais</button>
-        </section>
-        <section class="sobre-nos">
-            <h1>Sobre Nós</h1>
-            <div class="conteudo">
-                <div class="coluna">
-                    <h2>Lorem, ipsum.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sequi saepe? A delectus
-                        consequuntur impedit pariatur quibusdam consectetur quaerat mollitia quisquam quod, perspiciatis
-                        natus placeat tenetur, sed animi velit, doloribus ipsa distinctio inventore necessitatibus? At,
-                        nesciunt libero! Placeat exercitationem voluptatem maiores quae dignissimos sint doloremque
-                        natus, facilis adipisci corporis numquam.</p>
-                </div>
-                <div class="coluna">
-                    <h2>Lorem, ipsum.</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore, sequi saepe? A delectus
-                        consequuntur impedit pariatur quibusdam consectetur quaerat mollitia quisquam quod, perspiciatis
-                        natus placeat tenetur, sed animi velit, doloribus ipsa distinctio inventore necessitatibus? At,
-                        nesciunt libero! Placeat exercitationem voluptatem maiores quae dignissimos sint doloremque
-                        natus, facilis adipisci corporis numquam.</p>
-                </div>
-            </div>
-        </section>
-        <section class="carousel-container">
-            <h2>Lorem Ipsum is simply dummy</h2>
-
-            <div class="carousel-wrapper">
-                <div class="carousel-images">
-                    <div class="card"><img src="imgs/Giovanna.png"></div>
-                    <div class="card"><img src="imgs/Kaua.png"></div>
-                    <div class="card"><img src="imgs/Leonardo.png"></div>
-                    <div class="card"><img src="imgs/Marcelo.png"></div>
-                    <div class="card"><img src="imgs/Thais.png"></div>
-                </div>
-            </div>
-
-            <div class="carousel-dots">
-                <span class="dot active" onclick="scrollToImage(0)"></span>
-                <span class="dot" onclick="scrollToImage(1)"></span>
-                <span class="dot" onclick="scrollToImage(2)"></span>
-            </div>
-        </section>
-    </main>
+      </div>
+    </div>
+    <div class="footer-bottom">© 2026 InovaVale. Todos os direitos reservados.</div>
+  </footer>
 </body>
 <script src="js/script.js"></script>
-
 </html>
