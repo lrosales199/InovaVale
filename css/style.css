@@ -52,7 +52,7 @@ nav ul li a {
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 28px;
     letter-spacing: .4px;
     position: relative;
     transition: color .2s;
@@ -107,7 +107,7 @@ nav ul li a:hover::after {
     position: absolute;
     inset: 0;
     background:
-        url(/imgs/banner.jpg) center/cover no-repeat;
+        url('/imgs/banner.jpg') center/cover no-repeat;
 }
 
 .hero-content {
@@ -435,7 +435,7 @@ nav ul li a:hover::after {
 }
 
 .contato-form {
-    background: var(--second-color);
+    background: var(--color-neutral);
     padding: 62px 50px;
 }
 
@@ -443,7 +443,7 @@ nav ul li a:hover::after {
     font-family: 'Montserrat', sans-serif;
     font-size: 23px;
     font-weight: 800;
-    color: var(--destaca-color);
+    color: var(--primary-color);
     margin-bottom: 30px;
 }
 
@@ -500,6 +500,7 @@ nav ul li a:hover::after {
 
 .btn-enviar:hover {
     color: var(--color-neutral);
+    background-color: var(--second-color);
     transform: translateY(-2px);
     box-shadow: 0 6px 20px rgba(30, 58, 8, .3);
 }
@@ -515,7 +516,7 @@ nav ul li a:hover::after {
 
 /* ── FOOTER ── */
 footer {
-    background: var(--color-neutral);
+    background: var(--second-color);
     padding: 52px 60px 28px;
 }
 
@@ -531,7 +532,7 @@ footer {
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     font-size: 32px;
-    color: var(--primary-color);
+    color: var(--destaca-color);
     letter-spacing: 1.2px;
     text-transform: uppercase;
     margin-bottom: 20px;
@@ -546,18 +547,18 @@ footer {
 }
 
 .footer-col ul li a {
-    color: var(--primary-color);
+    color: var(--color-neutral);
     text-decoration: none;
     font-size: 24px;
     transition: color .2s;
 }
 
 .footer-col ul li a:hover {
-    color: var(--second-color);
+    color: var(--color-neutral);
 }
 
 .footer-col p {
-    color: var(--primary-color);
+    color: var(--color-neutral);
     font-size: 20px;
     line-height: 1.85;
 }
@@ -585,13 +586,13 @@ footer {
 }
 
 .social-links a:hover {
-    background: var(--second-color);
+    background: var(--color-neutral);
     color: #000;
 }
 
 .footer-bottom {
     text-align: center;
-    color: var(--primary-color);
+    color: var(--color-neutral);
     font-size: 28px;
     font-family: 'Montserrat', sans-serif;
 }
