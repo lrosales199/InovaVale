@@ -107,7 +107,7 @@ nav ul li a:hover::after {
     position: absolute;
     inset: 0;
     background:
-        url('/imgs/banner.jpg') center/cover no-repeat;
+        url("../imgs/banner.jpg") center/cover no-repeat;
 }
 
 .hero-content {
